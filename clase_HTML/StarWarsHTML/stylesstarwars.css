@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imp {
+    background-color: red;
+    text-align: center;
+}
+.reb {
+    background-color: blue;
+    text-align: center;
+}
+#dv {
+    font-size: 200%;
+}
+#luk {
+    font-style: italic;
+}
+.sol {
+    border: solid black;
+    border-style: dashed;
+    letter-spacing: 2px;
+}
+.apoyo {
+    text-align: center;
+}
+.nav {
+    text-transform: uppercase;
+}
