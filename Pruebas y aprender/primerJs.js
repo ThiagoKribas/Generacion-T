@@ -19,9 +19,9 @@ console.log(edadres)
 let snackedad = snackdiarios * edadres
 console.log(snackedad)
 alert('Necesitarás ' + snackedad + ' snacks para que te alcancen hasta los ' + edadmax + ' años.')
-alert('Esto significa que vas a gastar ' + (Number(preciosnack) * Number(snackedad)) + '$ en snacks!!!!') */
-
+alert('Esto significa que vas a gastar ' + (Number(preciosnack) * Number(snackedad)) + '$ en snacks!!!!')
 let dias = prompt('Cuantos dias te vas de vacaciones?')
 let presupuestomax = prompt('Ingresa tu presupuesto maximo para las vacaciones:')
 let comidatotal = prompt('Cuantas veces vas a comer?')
 alert('Podés gastar ' + (Number(presupuestomax)/Number(comidatotal)) + ' en cada comida para que te alcance la plata durante los ' + dias + ' días de viaje')
+ */

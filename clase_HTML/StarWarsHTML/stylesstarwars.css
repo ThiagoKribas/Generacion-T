@@ -21,6 +21,7 @@
     border: solid black;
     border-style: dashed;
     letter-spacing: 2px;
+    text-align: center;
 }
 .apoyo {
     text-align: center;
@@ -28,3 +29,37 @@
 .nav {
     text-transform: uppercase;
 }
+.parallas, .main, .texto{margin:0 auto}
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:30rem;
+	max-width: 100%;
+	position: relative
+}
+
+.texto-interior{
+	color:#fff;
+	font-size: 2rem;
+	font-weight: bold;
+	left: 10%;
+	position: absolute;
+	text-align: center;
+	top:15%;
+	width: 80%
+}
+	
+.img-uno{background-image: url('https://images.unsplash.com/photo-1615457670617-6b32cc6720a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')}
+
+.titulo{
+    color:rgb(255, 187, 0);
+	font-size: 4rem;
+	font-weight: bold;
+	left: 50%;
+	text-align: center;
+	width: 100%
+}
+
