@@ -1,0 +1,42 @@
+table{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+}
+
+table th, td {
+    border: 2px solid salmon;
+}
+div {
+    border-radius: 50px;
+}
+
+#uno  {
+    height: 50px;
+    width: 500px;
+    margin: 0px auto;
+    border-bottom: 15px solid rgb(153, 126, 92);
+    border-bottom-left-radius: 25px ;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+#dos  {
+    background-color: rgb(255, 0, 55);
+    height: 50px;
+    width: 550px;
+    margin: 0px auto;
+}
+    
+#tres  {
+    height: 50px;
+    width: 500px;
+    margin: 0px auto;
+    border-top: 10px solid rgb(153, 126, 92);
+    border-top-left-radius: 25px ;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+.pan {
+    background-color: burlywood;
+    
+}

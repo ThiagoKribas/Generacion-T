@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <p><input type="text" name="name" id="name" placeholder="Ingrese nombre"></p>
+        <p><input type="email" name="email" id="email" placeholder="Ingrese su Email"></p>
+        <p><input type="radio" name="genero" id="Femenino" value="Femenino" onchange="CambiarSexo('femenino')">
+            <label for="Femenino">
+                Femenino
+            </label>
+            <input type="radio" name="genero" id="Masculino" value="Masculino" onchange="CambiarSexo('masculino')">
+            <label for="Masculino">
+                Masculino
+            </label>
+            <input type="radio" name="genero" id="no binario" value="No binario" onchange="CambiarSexo('No binario')">
+            <label for="no binario">
+                No binario
+            </label>
+            <input type="radio" A name="genero" id="nodecir" value="nodecir" onchange="CambiarSexo('Prefiero no decirlo')">
+            <label for="nodecir">
+                Prefiero no decirlo
+            </label>
+        </p>
+        <p>
+            <select name="select" id="age">
+                <option value="menos18">-18</option>
+                <option value="18">18</option>
+                <option value="18a57">18-57</option>
+                <option value="mas57">+57</option>
+            </select>
+        </p>
+        <p>
+            <input type="checkbox" name="argentino" id="argentino">
+            <label for="argentino">
+                ¿Sos argentino? (Selecciona si lo sos)
+            </label>
+        </p>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

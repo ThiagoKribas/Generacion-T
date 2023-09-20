@@ -1,0 +1,15 @@
+.padreFlex{
+    display: flex;
+    padding: 2px;
+    margin: 10px;
+    background-color: blueviolet;
+    flex-flow: row wrap; /*esto es flex-direction + flex-wrap*/
+    justify-content: space-between;
+}
+
+.padreFlex div{
+    background-color: grey;
+    width: 300px;
+    margin: 20px;
+   
+}
